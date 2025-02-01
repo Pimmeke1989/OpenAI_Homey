@@ -14,6 +14,12 @@
         "value": "gpt-3.5-turbo",
         "values": [
           {
+            "id": "gpt-o3-mini",
+            "label": {
+              "en": "gpt-o3-mini"
+            }
+          },
+          {
             "id": "gpt-4o",
             "label": {
               "en": "gpt-4o"
