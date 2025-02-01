@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.openai.ChatGPT",
-  "version": "1.6.5",
+  "version": "1.6.6",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -486,6 +486,12 @@
               },
               "value": "gpt-3.5-turbo",
               "values": [
+                {
+                  "id": "gpt-o3-mini",
+                  "label": {
+                    "en": "gpt-o3-mini"
+                  }
+                },
                 {
                   "id": "gpt-4o",
                   "label": {
