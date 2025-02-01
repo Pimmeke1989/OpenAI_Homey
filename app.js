@@ -273,6 +273,7 @@ class OpenAIApp extends Homey.App {
 
   checkInterface() {
     switch (this.engine) {
+      case 'gpt-o3':
       case 'gpt-4':
       case 'gpt-4o':
       case 'gpt-4o-mini':
